@@ -1,0 +1,49 @@
+{
+  "name": "@saltcorn/aurora-design",
+  "version": "0.1.0",
+  "description": "Aurora Design — a stunningly modern, premium Saltcorn theme with glassmorphism, smooth animations and full dark mode",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "saltcorn",
+    "saltcorn-plugin",
+    "theme",
+    "layout",
+    "glassmorphism",
+    "dark-mode",
+    "bootstrap5"
+  ],
+  "author": "Patrick Pasch",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saltcorn/aurora-design.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saltcorn/aurora-design/issues"
+  },
+  "homepage": "https://github.com/saltcorn/aurora-design#readme",
+  "dependencies": {},
+  "devDependencies": {},
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 2022
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "rules": {
+      "no-unused-vars": "off",
+      "no-case-declarations": "off",
+      "no-empty": "warn",
+      "no-fallthrough": "warn"
+    }
+  }
+}
